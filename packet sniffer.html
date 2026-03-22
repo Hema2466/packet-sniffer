@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Packet Sniffer Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Packet Sniffer Dashboard</h1>
+
+    <button onclick="startSniffing()">Start Sniffing</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Source IP</th>
+                <th>Destination IP</th>
+                <th>Protocol</th>
+                <th>Length</th>
+            </tr>
+        </thead>
+        <tbody id="packetTable">
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
